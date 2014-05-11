@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3.1 - Kontenery generyczne", "2.3.1 - Kontenery generyczne\2.3.1 - Kontenery generyczne.csproj", "{13691C55-CFF1-4E01-AFA1-C804E327DECC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3.2 - Drzewo binarne", "2.3.2 - Drzewo binarne\2.3.2 - Drzewo binarne.csproj", "{AAB5B677-E164-4B89-B6B4-A92183565EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3.3 - Anonimowe delegacje", "2.3.3 - Anonimowe delegacje\2.3.3 - Anonimowe delegacje.csproj", "{2E40C90B-CF4D-420A-A1BD-ECFE1BFDEF7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3.4 - Algorytmy biblioteczne", "2.3.4 - Algorytmy biblioteczne\2.3.4 - Algorytmy biblioteczne.csproj", "{BD1F6225-30F9-4B4D-8B94-EEB2DCC5959A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13691C55-CFF1-4E01-AFA1-C804E327DECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13691C55-CFF1-4E01-AFA1-C804E327DECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13691C55-CFF1-4E01-AFA1-C804E327DECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13691C55-CFF1-4E01-AFA1-C804E327DECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB5B677-E164-4B89-B6B4-A92183565EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB5B677-E164-4B89-B6B4-A92183565EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB5B677-E164-4B89-B6B4-A92183565EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB5B677-E164-4B89-B6B4-A92183565EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E40C90B-CF4D-420A-A1BD-ECFE1BFDEF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E40C90B-CF4D-420A-A1BD-ECFE1BFDEF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E40C90B-CF4D-420A-A1BD-ECFE1BFDEF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E40C90B-CF4D-420A-A1BD-ECFE1BFDEF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1F6225-30F9-4B4D-8B94-EEB2DCC5959A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1F6225-30F9-4B4D-8B94-EEB2DCC5959A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1F6225-30F9-4B4D-8B94-EEB2DCC5959A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1F6225-30F9-4B4D-8B94-EEB2DCC5959A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
