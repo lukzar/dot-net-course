@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4.1 - Metoda rozszerzajaca klase System.String", "2.4.1 - Metoda rozszerzajaca klase System.String\2.4.1 - Metoda rozszerzajaca klase System.String.csproj", "{4A97B1E8-B4DF-464C-A5D7-79A392E77E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4.2 - LINQ to Objects, sortowanie, filtrowanie", "2.4.2 - LINQ to Objects, sortowanie, filtrowanie\2.4.2 - LINQ to Objects, sortowanie, filtrowanie.csproj", "{7F265B48-D74F-4B7A-BE76-10F6E9F13ED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4.3 - LINQ to Objects, grupowanie", "2.4.3 - LINQ to Objects, grupowanie\2.4.3 - LINQ to Objects, grupowanie.csproj", "{B23F01D0-0237-4871-A141-813A20D43241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4.4 - LINQ to Objects, agregowanie", "2.4.4 - LINQ to Objects, agregowanie\2.4.4 - LINQ to Objects, agregowanie.csproj", "{D0952673-079B-4667-A2E5-09119650A9BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4.5 - LINQ to Objects, Join", "2.4.5 - LINQ to Objects, Join\2.4.5 - LINQ to Objects, Join.csproj", "{450ECF70-E540-4040-B9BC-6A339CC56FD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4.6 - LINQ to Objects, analiza logow serwera", "2.4.6 - LINQ to Objects, analiza logow serwera\2.4.6 - LINQ to Objects, analiza logow serwera.csproj", "{C3519BB5-26D8-4C84-ABE3-C51AEE2C8AB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4.7 - Lista obiektow anonimowych", "2.4.7 - Lista obiektow anonimowych\2.4.7 - Lista obiektow anonimowych.csproj", "{3A732793-7E79-4E46-8CF4-532B2E7BA53B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4.8 - Rekursywne anonimowe delegacje", "2.4.8 - Rekursywne anonimowe delegacje\2.4.8 - Rekursywne anonimowe delegacje.csproj", "{ED2D156C-8A0B-4234-AEB8-50D4CB672825}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A97B1E8-B4DF-464C-A5D7-79A392E77E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A97B1E8-B4DF-464C-A5D7-79A392E77E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A97B1E8-B4DF-464C-A5D7-79A392E77E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A97B1E8-B4DF-464C-A5D7-79A392E77E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F265B48-D74F-4B7A-BE76-10F6E9F13ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F265B48-D74F-4B7A-BE76-10F6E9F13ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F265B48-D74F-4B7A-BE76-10F6E9F13ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F265B48-D74F-4B7A-BE76-10F6E9F13ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23F01D0-0237-4871-A141-813A20D43241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23F01D0-0237-4871-A141-813A20D43241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23F01D0-0237-4871-A141-813A20D43241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23F01D0-0237-4871-A141-813A20D43241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0952673-079B-4667-A2E5-09119650A9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0952673-079B-4667-A2E5-09119650A9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0952673-079B-4667-A2E5-09119650A9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0952673-079B-4667-A2E5-09119650A9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450ECF70-E540-4040-B9BC-6A339CC56FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450ECF70-E540-4040-B9BC-6A339CC56FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450ECF70-E540-4040-B9BC-6A339CC56FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450ECF70-E540-4040-B9BC-6A339CC56FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3519BB5-26D8-4C84-ABE3-C51AEE2C8AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3519BB5-26D8-4C84-ABE3-C51AEE2C8AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3519BB5-26D8-4C84-ABE3-C51AEE2C8AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3519BB5-26D8-4C84-ABE3-C51AEE2C8AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A732793-7E79-4E46-8CF4-532B2E7BA53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A732793-7E79-4E46-8CF4-532B2E7BA53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A732793-7E79-4E46-8CF4-532B2E7BA53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A732793-7E79-4E46-8CF4-532B2E7BA53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED2D156C-8A0B-4234-AEB8-50D4CB672825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED2D156C-8A0B-4234-AEB8-50D4CB672825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED2D156C-8A0B-4234-AEB8-50D4CB672825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED2D156C-8A0B-4234-AEB8-50D4CB672825}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
