@@ -1,0 +1,87 @@
+﻿using System;
+using System.Runtime.CompilerServices;
+namespace DekompilacjaKodu
+{
+	internal class Program
+	{
+		[CompilerGenerated]
+		private static Arr.Changer CS$<>9__CachedAnonymousMethodDelegate2;
+		[CompilerGenerated]
+		private static Arr.Changer CS$<>9__CachedAnonymousMethodDelegate3;
+		private static void Main(string[] args)
+		{
+			Arr arr = new Arr(6);
+			for (int i = 0; i < arr.Length; i++)
+			{
+				arr[i] = i * i;
+			}
+			Console.WriteLine(arr.Calculate());
+			arr.changer = new Arr.Changer(Program.<Main>b__0);
+			Console.WriteLine(arr.Calculate());
+			arr.changer = new Arr.Changer(Program.<Main>b__1);
+			Console.WriteLine(arr.Calculate());
+		}
+		[CompilerGenerated]
+		private static int <Main>b__0(int a)
+		{
+			return a * a;
+		}
+		[CompilerGenerated]
+		private static int <Main>b__1(int a)
+		{
+			return a - a;
+		}
+	}
+
+	internal class Arr
+	{
+		public delegate int Changer(int a);
+		protected int[] Data;
+		public Arr.Changer changer = new Arr.Changer(Arr.<.ctor>b__0);
+		[CompilerGenerated]
+		private static Arr.Changer CS$<>9__CachedAnonymousMethodDelegate1;
+		public int Length
+		{
+			get;
+			protected set;
+		}
+		public int this[int index]
+		{
+			get
+			{
+				if (index > this.Length)
+				{
+					throw new IndexOutOfRangeException();
+				}
+				return this.Data[index];
+			}
+			set
+			{
+				if (index > this.Length)
+				{
+					throw new IndexOutOfRangeException();
+				}
+				this.Data[index] = value;
+			}
+		}
+		public Arr(int length)
+		{
+			this.Length = length;
+			this.Data = new int[this.Length];
+		}
+		public int Calculate()
+		{
+			int num = 0;
+			for (int i = 0; i < this.Length; i++)
+			{
+				num += this.changer(this.Data[i]);
+			}
+			return num;
+		}
+		[CompilerGenerated]
+		private static int ctor>b__0(int a)
+		{
+			return a;
+		}
+	}
+}

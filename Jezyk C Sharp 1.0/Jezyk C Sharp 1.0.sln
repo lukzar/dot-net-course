@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.2 - Indeksery", "2.1.2 - Indeksery\2.1.2 - Indeksery.csproj", "{AAA54E1B-C9E3-44D6-B63A-2FF9A2763A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.1 - Prosty algorytm", "2.1.1 - Prosty algorytm\2.1.1 - Prosty algorytm.csproj", "{D09AE7FE-71E4-4EDF-AD28-7E3FA2174BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.3 - Refleksja - skladowe prywatne", "2.1.3 - Refleksja - skladowe prywatne\2.1.3 - Refleksja - skladowe prywatne.csproj", "{DEB3B842-3281-4464-B267-D3D351D4C78C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.4 - Atrybuty", "2.1.4 - Atrybuty\2.1.4 - Atrybuty.csproj", "{40459CFE-65BD-48B8-8D48-DE5982BC602F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.5 - Dokumentowanie kodu", "2.1.5 - Dokumentowanie kodu\2.1.5 - Dokumentowanie kodu.csproj", "{9CBB03F5-D1F1-4CAF-82E9-CFB241CBCB59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.6 - Dekompilacja kodu", "2.1.6 - Dekompilacja kodu\2.1.6 - Dekompilacja kodu.csproj", "{2DE39192-89D2-41EC-82F5-6FCCB36AF709}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAA54E1B-C9E3-44D6-B63A-2FF9A2763A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA54E1B-C9E3-44D6-B63A-2FF9A2763A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA54E1B-C9E3-44D6-B63A-2FF9A2763A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA54E1B-C9E3-44D6-B63A-2FF9A2763A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09AE7FE-71E4-4EDF-AD28-7E3FA2174BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09AE7FE-71E4-4EDF-AD28-7E3FA2174BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09AE7FE-71E4-4EDF-AD28-7E3FA2174BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09AE7FE-71E4-4EDF-AD28-7E3FA2174BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEB3B842-3281-4464-B267-D3D351D4C78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB3B842-3281-4464-B267-D3D351D4C78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB3B842-3281-4464-B267-D3D351D4C78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB3B842-3281-4464-B267-D3D351D4C78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40459CFE-65BD-48B8-8D48-DE5982BC602F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40459CFE-65BD-48B8-8D48-DE5982BC602F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40459CFE-65BD-48B8-8D48-DE5982BC602F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40459CFE-65BD-48B8-8D48-DE5982BC602F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CBB03F5-D1F1-4CAF-82E9-CFB241CBCB59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CBB03F5-D1F1-4CAF-82E9-CFB241CBCB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CBB03F5-D1F1-4CAF-82E9-CFB241CBCB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CBB03F5-D1F1-4CAF-82E9-CFB241CBCB59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE39192-89D2-41EC-82F5-6FCCB36AF709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE39192-89D2-41EC-82F5-6FCCB36AF709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE39192-89D2-41EC-82F5-6FCCB36AF709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE39192-89D2-41EC-82F5-6FCCB36AF709}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

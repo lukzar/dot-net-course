@@ -1,0 +1,535 @@
+﻿// W:\C#\UWr.Kurs.Net#Listy\kurs-windows\cfgj\Język C Sharp\2.1.6 - Dekompilacja kodu\bin\Debug\2.1.6 - Dekompilacja kodu.exe
+
+.assembly '2.1.6 - Dekompilacja kodu'
+{
+	.custom instance void [mscorlib]System.Reflection.AssemblyTitleAttribute::.ctor(string) = (
+		01 00 19 32 2e 31 2e 36 20 2d 20 44 65 6b 6f 6d
+		70 69 6c 61 63 6a 61 20 6b 6f 64 75 00 00
+	)
+	.custom instance void [mscorlib]System.Reflection.AssemblyDescriptionAttribute::.ctor(string) = (
+		01 00 00 00 00
+	)
+	.custom instance void [mscorlib]System.Reflection.AssemblyConfigurationAttribute::.ctor(string) = (
+		01 00 00 00 00
+	)
+	.custom instance void [mscorlib]System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::.ctor() = (
+		01 00 01 00 54 02 16 57 72 61 70 4e 6f 6e 45 78
+		63 65 70 74 69 6f 6e 54 68 72 6f 77 73 01
+	)
+	.custom instance void [mscorlib]System.Runtime.Versioning.TargetFrameworkAttribute::.ctor(string) = (
+		01 00 1a 2e 4e 45 54 46 72 61 6d 65 77 6f 72 6b
+		2c 56 65 72 73 69 6f 6e 3d 76 34 2e 35 01 00 54
+		0e 14 46 72 61 6d 65 77 6f 72 6b 44 69 73 70 6c
+		61 79 4e 61 6d 65 12 2e 4e 45 54 20 46 72 61 6d
+		65 77 6f 72 6b 20 34 2e 35
+	)
+	.custom instance void [mscorlib]System.Reflection.AssemblyCopyrightAttribute::.ctor(string) = (
+		01 00 12 43 6f 70 79 72 69 67 68 74 20 c2 a9 20
+		20 32 30 31 34 00 00
+	)
+	.custom instance void [mscorlib]System.Reflection.AssemblyTrademarkAttribute::.ctor(string) = (
+		01 00 00 00 00
+	)
+	.custom instance void [mscorlib]System.Diagnostics.DebuggableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggableAttribute/DebuggingModes) = (
+		01 00 07 01 00 00 00 00
+	)
+	.custom instance void [mscorlib]System.Reflection.AssemblyCompanyAttribute::.ctor(string) = (
+		01 00 00 00 00
+	)
+	.custom instance void [mscorlib]System.Reflection.AssemblyProductAttribute::.ctor(string) = (
+		01 00 19 32 2e 31 2e 36 20 2d 20 44 65 6b 6f 6d
+		70 69 6c 61 63 6a 61 20 6b 6f 64 75 00 00
+	)
+	.custom instance void [mscorlib]System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(int32) = (
+		01 00 08 00 00 00 00 00
+	)
+	.custom instance void [mscorlib]System.Runtime.InteropServices.ComVisibleAttribute::.ctor(bool) = (
+		01 00 00 00 00
+	)
+	.custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = (
+		01 00 24 30 62 38 36 38 39 32 65 2d 65 63 32 37
+		2d 34 62 34 63 2d 61 38 35 66 2d 32 38 63 33 36
+		37 65 63 39 31 34 64 00 00
+	)
+	.custom instance void [mscorlib]System.Reflection.AssemblyFileVersionAttribute::.ctor(string) = (
+		01 00 07 31 2e 30 2e 30 2e 30 00 00
+	)
+	.hash algorithm 0x00008004 // SHA1
+	.ver 1:0:0:0
+}
+
+.module '2.1.6 - Dekompilacja kodu.exe'
+// MVID: {678E09E6-815B-45D3-9E4E-85273BEF56A6}
+.corflags 0x00020003 // ILOnly, Required32Bit, Preferred32Bit
+
+.class private auto ansi '<Module>'
+{
+} // end of class <Module>
+
+
+	.class private auto ansi beforefieldinit DekompilacjaKodu.Arr
+		extends [mscorlib]System.Object
+	{
+		.custom instance void [mscorlib]System.Reflection.DefaultMemberAttribute::.ctor(string) = (
+			01 00 04 49 74 65 6d 00 00
+		)
+		// Nested Types
+		.class nested public auto ansi sealed Changer
+			extends [mscorlib]System.MulticastDelegate
+		{
+			// Methods
+			.method public hidebysig specialname rtspecialname 
+				instance void .ctor (
+					object 'object',
+					native int 'method'
+				) runtime managed 
+			{
+			} // end of method Changer::.ctor
+
+			.method public hidebysig newslot virtual 
+				instance int32 Invoke (
+					int32 a
+				) runtime managed 
+			{
+			} // end of method Changer::Invoke
+
+			.method public hidebysig newslot virtual 
+				instance class [mscorlib]System.IAsyncResult BeginInvoke (
+					int32 a,
+					class [mscorlib]System.AsyncCallback callback,
+					object 'object'
+				) runtime managed 
+			{
+			} // end of method Changer::BeginInvoke
+
+			.method public hidebysig newslot virtual 
+				instance int32 EndInvoke (
+					class [mscorlib]System.IAsyncResult result
+				) runtime managed 
+			{
+			} // end of method Changer::EndInvoke
+
+		} // end of class Changer
+
+
+		// Fields
+		.field family int32[] Data
+		.field public class DekompilacjaKodu.Arr/Changer changer
+		.field private int32 '<Length>k__BackingField'
+		.custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = (
+			01 00 00 00
+		)
+		.field private static class DekompilacjaKodu.Arr/Changer 'CS$<>9__CachedAnonymousMethodDelegate1'
+		.custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = (
+			01 00 00 00
+		)
+
+		// Methods
+		.method public hidebysig specialname 
+			instance int32 get_Length () cil managed 
+		{
+			.custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = (
+				01 00 00 00
+			)
+			// Method begins at RVA 0x2128
+			// Code size 11 (0xb)
+			.maxstack 1
+			.locals init (
+				[0] int32
+			)
+
+			IL_0000: ldarg.0
+			IL_0001: ldfld int32 DekompilacjaKodu.Arr::'<Length>k__BackingField'
+			IL_0006: stloc.0
+			IL_0007: br.s IL_0009
+
+			IL_0009: ldloc.0
+			IL_000a: ret
+		} // end of method Arr::get_Length
+
+		.method family hidebysig specialname 
+			instance void set_Length (
+				int32 'value'
+			) cil managed 
+		{
+			.custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = (
+				01 00 00 00
+			)
+			// Method begins at RVA 0x213f
+			// Code size 8 (0x8)
+			.maxstack 8
+
+			IL_0000: ldarg.0
+			IL_0001: ldarg.1
+			IL_0002: stfld int32 DekompilacjaKodu.Arr::'<Length>k__BackingField'
+			IL_0007: ret
+		} // end of method Arr::set_Length
+
+		.method public hidebysig specialname rtspecialname 
+			instance void .ctor (
+				int32 length
+			) cil managed 
+		{
+			// Method begins at RVA 0x215c
+			// Code size 72 (0x48)
+			.maxstack 3
+
+			IL_0000: ldarg.0
+			IL_0001: ldsfld class DekompilacjaKodu.Arr/Changer DekompilacjaKodu.Arr::'CS$<>9__CachedAnonymousMethodDelegate1'
+			IL_0006: brtrue.s IL_001b
+
+			IL_0008: ldnull
+			IL_0009: ldftn int32 DekompilacjaKodu.Arr::'<.ctor>b__0'(int32)
+			IL_000f: newobj instance void DekompilacjaKodu.Arr/Changer::.ctor(object, native int)
+			IL_0014: stsfld class DekompilacjaKodu.Arr/Changer DekompilacjaKodu.Arr::'CS$<>9__CachedAnonymousMethodDelegate1'
+			IL_0019: br.s IL_001b
+
+			IL_001b: ldsfld class DekompilacjaKodu.Arr/Changer DekompilacjaKodu.Arr::'CS$<>9__CachedAnonymousMethodDelegate1'
+			IL_0020: stfld class DekompilacjaKodu.Arr/Changer DekompilacjaKodu.Arr::changer
+			IL_0025: ldarg.0
+			IL_0026: call instance void [mscorlib]System.Object::.ctor()
+			IL_002b: nop
+			IL_002c: nop
+			IL_002d: ldarg.0
+			IL_002e: ldarg.1
+			IL_002f: call instance void DekompilacjaKodu.Arr::set_Length(int32)
+			IL_0034: nop
+			IL_0035: ldarg.0
+			IL_0036: ldarg.0
+			IL_0037: call instance int32 DekompilacjaKodu.Arr::get_Length()
+			IL_003c: newarr [mscorlib]System.Int32
+			IL_0041: stfld int32[] DekompilacjaKodu.Arr::Data
+			IL_0046: nop
+			IL_0047: ret
+		} // end of method Arr::.ctor
+
+		.method public hidebysig specialname 
+			instance int32 get_Item (
+				int32 index
+			) cil managed 
+		{
+			// Method begins at RVA 0x21b0
+			// Code size 37 (0x25)
+			.maxstack 2
+			.locals init (
+				[0] int32 CS$1$0000,
+				[1] bool CS$4$0001
+			)
+
+			IL_0000: nop
+			IL_0001: ldarg.1
+			IL_0002: ldarg.0
+			IL_0003: call instance int32 DekompilacjaKodu.Arr::get_Length()
+			IL_0008: cgt
+			IL_000a: ldc.i4.0
+			IL_000b: ceq
+			IL_000d: stloc.1
+			IL_000e: ldloc.1
+			IL_000f: brtrue.s IL_0018
+
+			IL_0011: nop
+			IL_0012: newobj instance void [mscorlib]System.IndexOutOfRangeException::.ctor()
+			IL_0017: throw
+
+			IL_0018: ldarg.0
+			IL_0019: ldfld int32[] DekompilacjaKodu.Arr::Data
+			IL_001e: ldarg.1
+			IL_001f: ldelem.i4
+			IL_0020: stloc.0
+			IL_0021: br.s IL_0023
+
+			IL_0023: ldloc.0
+			IL_0024: ret
+		} // end of method Arr::get_Item
+
+		.method public hidebysig specialname 
+			instance void set_Item (
+				int32 index,
+				int32 'value'
+			) cil managed 
+		{
+			// Method begins at RVA 0x21e4
+			// Code size 34 (0x22)
+			.maxstack 3
+			.locals init (
+				[0] bool CS$4$0000
+			)
+
+			IL_0000: nop
+			IL_0001: ldarg.1
+			IL_0002: ldarg.0
+			IL_0003: call instance int32 DekompilacjaKodu.Arr::get_Length()
+			IL_0008: cgt
+			IL_000a: ldc.i4.0
+			IL_000b: ceq
+			IL_000d: stloc.0
+			IL_000e: ldloc.0
+			IL_000f: brtrue.s IL_0018
+
+			IL_0011: nop
+			IL_0012: newobj instance void [mscorlib]System.IndexOutOfRangeException::.ctor()
+			IL_0017: throw
+
+			IL_0018: ldarg.0
+			IL_0019: ldfld int32[] DekompilacjaKodu.Arr::Data
+			IL_001e: ldarg.1
+			IL_001f: ldarg.2
+			IL_0020: stelem.i4
+			IL_0021: ret
+		} // end of method Arr::set_Item
+
+		.method public hidebysig 
+			instance int32 Calculate () cil managed 
+		{
+			// Method begins at RVA 0x2214
+			// Code size 54 (0x36)
+			.maxstack 4
+			.locals init (
+				[0] int32 result,
+				[1] int32 i,
+				[2] int32 CS$1$0000,
+				[3] bool CS$4$0001
+			)
+
+			IL_0000: nop
+			IL_0001: ldc.i4.0
+			IL_0002: stloc.0
+			IL_0003: ldc.i4.0
+			IL_0004: stloc.1
+			IL_0005: br.s IL_0023
+			// loop start (head: IL_0023)
+				IL_0007: nop
+				IL_0008: ldloc.0
+				IL_0009: ldarg.0
+				IL_000a: ldfld class DekompilacjaKodu.Arr/Changer DekompilacjaKodu.Arr::changer
+				IL_000f: ldarg.0
+				IL_0010: ldfld int32[] DekompilacjaKodu.Arr::Data
+				IL_0015: ldloc.1
+				IL_0016: ldelem.i4
+				IL_0017: callvirt instance int32 DekompilacjaKodu.Arr/Changer::Invoke(int32)
+				IL_001c: add
+				IL_001d: stloc.0
+				IL_001e: nop
+				IL_001f: ldloc.1
+				IL_0020: ldc.i4.1
+				IL_0021: add
+				IL_0022: stloc.1
+
+				IL_0023: ldloc.1
+				IL_0024: ldarg.0
+				IL_0025: call instance int32 DekompilacjaKodu.Arr::get_Length()
+				IL_002a: clt
+				IL_002c: stloc.3
+				IL_002d: ldloc.3
+				IL_002e: brtrue.s IL_0007
+			// end loop
+
+			IL_0030: ldloc.0
+			IL_0031: stloc.2
+			IL_0032: br.s IL_0034
+
+			IL_0034: ldloc.2
+			IL_0035: ret
+		} // end of method Arr::Calculate
+
+		.method private hidebysig static 
+			int32 '<.ctor>b__0' (
+				int32 a
+			) cil managed 
+		{
+			.custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = (
+				01 00 00 00
+			)
+			// Method begins at RVA 0x2148
+			// Code size 6 (0x6)
+			.maxstack 1
+			.locals init (
+				[0] int32 CS$1$0000
+			)
+
+			IL_0000: ldarg.0
+			IL_0001: stloc.0
+			IL_0002: br.s IL_0004
+
+			IL_0004: ldloc.0
+			IL_0005: ret
+		} // end of method Arr::'<.ctor>b__0'
+
+		// Properties
+		.property instance int32 Length()
+		{
+			.get instance int32 DekompilacjaKodu.Arr::get_Length()
+			.set instance void DekompilacjaKodu.Arr::set_Length(int32)
+		}
+		.property instance int32 Item(
+			int32 index
+		)
+		{
+			.get instance int32 DekompilacjaKodu.Arr::get_Item(int32)
+			.set instance void DekompilacjaKodu.Arr::set_Item(int32, int32)
+		}
+
+	} // end of class DekompilacjaKodu.Arr
+
+	.class private auto ansi beforefieldinit DekompilacjaKodu.Program
+		extends [mscorlib]System.Object
+	{
+		// Fields
+		.field private static class DekompilacjaKodu.Arr/Changer 'CS$<>9__CachedAnonymousMethodDelegate2'
+		.custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = (
+			01 00 00 00
+		)
+		.field private static class DekompilacjaKodu.Arr/Changer 'CS$<>9__CachedAnonymousMethodDelegate3'
+		.custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = (
+			01 00 00 00
+		)
+
+		// Methods
+		.method private hidebysig static 
+			void Main (
+				string[] args
+			) cil managed 
+		{
+			// Method begins at RVA 0x2078
+			// Code size 153 (0x99)
+			.maxstack 4
+			.entrypoint
+			.locals init (
+				[0] class DekompilacjaKodu.Arr arr,
+				[1] int32 i,
+				[2] bool CS$4$0000
+			)
+
+			IL_0000: nop
+			IL_0001: ldc.i4.6
+			IL_0002: newobj instance void DekompilacjaKodu.Arr::.ctor(int32)
+			IL_0007: stloc.0
+			IL_0008: ldc.i4.0
+			IL_0009: stloc.1
+			IL_000a: br.s IL_001d
+			// loop start (head: IL_001d)
+				IL_000c: nop
+				IL_000d: ldloc.0
+				IL_000e: ldloc.1
+				IL_000f: ldloc.1
+				IL_0010: ldloc.1
+				IL_0011: mul
+				IL_0012: callvirt instance void DekompilacjaKodu.Arr::set_Item(int32, int32)
+				IL_0017: nop
+				IL_0018: nop
+				IL_0019: ldloc.1
+				IL_001a: ldc.i4.1
+				IL_001b: add
+				IL_001c: stloc.1
+
+				IL_001d: ldloc.1
+				IL_001e: ldloc.0
+				IL_001f: callvirt instance int32 DekompilacjaKodu.Arr::get_Length()
+				IL_0024: clt
+				IL_0026: stloc.2
+				IL_0027: ldloc.2
+				IL_0028: brtrue.s IL_000c
+			// end loop
+
+			IL_002a: ldloc.0
+			IL_002b: callvirt instance int32 DekompilacjaKodu.Arr::Calculate()
+			IL_0030: call void [mscorlib]System.Console::WriteLine(int32)
+			IL_0035: nop
+			IL_0036: ldloc.0
+			IL_0037: ldsfld class DekompilacjaKodu.Arr/Changer DekompilacjaKodu.Program::'CS$<>9__CachedAnonymousMethodDelegate2'
+			IL_003c: brtrue.s IL_0051
+
+			IL_003e: ldnull
+			IL_003f: ldftn int32 DekompilacjaKodu.Program::'<Main>b__0'(int32)
+			IL_0045: newobj instance void DekompilacjaKodu.Arr/Changer::.ctor(object, native int)
+			IL_004a: stsfld class DekompilacjaKodu.Arr/Changer DekompilacjaKodu.Program::'CS$<>9__CachedAnonymousMethodDelegate2'
+			IL_004f: br.s IL_0051
+
+			IL_0051: ldsfld class DekompilacjaKodu.Arr/Changer DekompilacjaKodu.Program::'CS$<>9__CachedAnonymousMethodDelegate2'
+			IL_0056: stfld class DekompilacjaKodu.Arr/Changer DekompilacjaKodu.Arr::changer
+			IL_005b: ldloc.0
+			IL_005c: callvirt instance int32 DekompilacjaKodu.Arr::Calculate()
+			IL_0061: call void [mscorlib]System.Console::WriteLine(int32)
+			IL_0066: nop
+			IL_0067: ldloc.0
+			IL_0068: ldsfld class DekompilacjaKodu.Arr/Changer DekompilacjaKodu.Program::'CS$<>9__CachedAnonymousMethodDelegate3'
+			IL_006d: brtrue.s IL_0082
+
+			IL_006f: ldnull
+			IL_0070: ldftn int32 DekompilacjaKodu.Program::'<Main>b__1'(int32)
+			IL_0076: newobj instance void DekompilacjaKodu.Arr/Changer::.ctor(object, native int)
+			IL_007b: stsfld class DekompilacjaKodu.Arr/Changer DekompilacjaKodu.Program::'CS$<>9__CachedAnonymousMethodDelegate3'
+			IL_0080: br.s IL_0082
+
+			IL_0082: ldsfld class DekompilacjaKodu.Arr/Changer DekompilacjaKodu.Program::'CS$<>9__CachedAnonymousMethodDelegate3'
+			IL_0087: stfld class DekompilacjaKodu.Arr/Changer DekompilacjaKodu.Arr::changer
+			IL_008c: ldloc.0
+			IL_008d: callvirt instance int32 DekompilacjaKodu.Arr::Calculate()
+			IL_0092: call void [mscorlib]System.Console::WriteLine(int32)
+			IL_0097: nop
+			IL_0098: ret
+		} // end of method Program::Main
+
+		.method public hidebysig specialname rtspecialname 
+			instance void .ctor () cil managed 
+		{
+			// Method begins at RVA 0x211d
+			// Code size 7 (0x7)
+			.maxstack 8
+
+			IL_0000: ldarg.0
+			IL_0001: call instance void [mscorlib]System.Object::.ctor()
+			IL_0006: ret
+		} // end of method Program::.ctor
+
+		.method private hidebysig static 
+			int32 '<Main>b__0' (
+				int32 a
+			) cil managed 
+		{
+			.custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = (
+				01 00 00 00
+			)
+			// Method begins at RVA 0x2050
+			// Code size 8 (0x8)
+			.maxstack 2
+			.locals init (
+				[0] int32 CS$1$0000
+			)
+
+			IL_0000: ldarg.0
+			IL_0001: ldarg.0
+			IL_0002: mul
+			IL_0003: stloc.0
+			IL_0004: br.s IL_0006
+
+			IL_0006: ldloc.0
+			IL_0007: ret
+		} // end of method Program::'<Main>b__0'
+
+		.method private hidebysig static 
+			int32 '<Main>b__1' (
+				int32 a
+			) cil managed 
+		{
+			.custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = (
+				01 00 00 00
+			)
+			// Method begins at RVA 0x2064
+			// Code size 8 (0x8)
+			.maxstack 2
+			.locals init (
+				[0] int32 CS$1$0000
+			)
+
+			IL_0000: ldarg.0
+			IL_0001: ldarg.0
+			IL_0002: sub
+			IL_0003: stloc.0
+			IL_0004: br.s IL_0006
+
+			IL_0006: ldloc.0
+			IL_0007: ret
+		} // end of method Program::'<Main>b__1'
+
+	} // end of class DekompilacjaKodu.Program
