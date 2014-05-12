@@ -42,7 +42,7 @@ namespace RefleksjaSkladowePrywatne
 
             for (int i = 0; i < limit; ++i)
             {
-                typeof(A).GetMethod("PublicMethod").Invoke(a, new object[] { });
+                InvokePublicMethod(a, "PublicMethod");
             }
 
             end = DateTime.Now;
@@ -75,6 +75,11 @@ namespace RefleksjaSkladowePrywatne
                 .GetType()
                 .GetMethod(methodName, BindingFlags.NonPublic | BindingFlags.Instance)
                 .Invoke(instance, new object[] { });
+        }
+
+        public static object InvokePublicMethod(object instance, string methodName)
+        {
+            return instance.GetType().GetMethod(methodName).Invoke(instance, new object[] { });
         }
     }
 

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.5.1 - Wydajnosc podsystemu DLR", "2.5.1 - Wydajnosc podsystemu DLR\2.5.1 - Wydajnosc podsystemu DLR.csproj", "{B0AC2AC9-0A39-4FBA-B8BA-510D0E52B3B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.5.2 - Latwa automatyzacja w C Sharp", "2.5.2 - Latwa automatyzacja w C Sharp\2.5.2 - Latwa automatyzacja w C Sharp.csproj", "{FA250087-C7F8-4EDD-BAB5-E258C7AB00EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0AC2AC9-0A39-4FBA-B8BA-510D0E52B3B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0AC2AC9-0A39-4FBA-B8BA-510D0E52B3B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0AC2AC9-0A39-4FBA-B8BA-510D0E52B3B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0AC2AC9-0A39-4FBA-B8BA-510D0E52B3B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA250087-C7F8-4EDD-BAB5-E258C7AB00EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA250087-C7F8-4EDD-BAB5-E258C7AB00EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA250087-C7F8-4EDD-BAB5-E258C7AB00EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA250087-C7F8-4EDD-BAB5-E258C7AB00EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
